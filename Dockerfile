@@ -16,6 +16,5 @@ USER coredns
 VOLUME ["/config"]
 EXPOSE 5353/udp
 
-
 ENTRYPOINT ["/usr/bin/coredns"]
 CMD ["-conf", "/config/Corefile"]
